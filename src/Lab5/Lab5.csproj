@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Itmo.ObjectOrientedProgramming.Lab5</RootNamespace>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <WarningsNotAsErrors>CA1515</WarningsNotAsErrors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="docker\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Itmo.Dev.Platform.Postgres" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+      <PackageReference Include="Spectre.Console" />
+    </ItemGroup>
+
+</Project>
